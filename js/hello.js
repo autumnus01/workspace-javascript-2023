@@ -12,6 +12,7 @@ var hoursNow = today.getHours();
 var greetings = "";
 if (hoursNow <= 12){
   greetings = "Good Morning";
+  console.log(hoursNow);
 }else{
   greetings = "Good Evening";
 }
